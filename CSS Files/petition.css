@@ -1,0 +1,63 @@
+
+/* Add style to Petition section */
+.petition {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-items: center;
+}
+.petition-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 70%;
+  margin: auto;
+  padding-bottom: 50px;
+}
+.petition-para {
+  width: 60%;
+  padding-right: 10px;
+  text-align: center;
+  font-size: 20px;
+
+}
+.signatures {
+  width: 40%;
+  padding-right: 10px;
+}
+
+#sign-petition {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 700px; /* Set maximum width for the form */
+  margin: auto; /* Center the form horizontally */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+input[type="text"],
+input[type="email"],
+button[type="submit"] {
+  padding: 15px; /* Larger padding for input fields */
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 18px; /* Larger font size for input fields */
+}
+
+input[type="text"],
+input[type="email"] {
+  flex-grow: 1; /* Make inputs grow to fill available space */
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,410 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+/*
+  Add style rules for the body of a your webpage.
+  Note: These rules will be applied to all elements.
+*/
+body {
+  
+  background-color: #ECF8EC;
+  background-image: url('');
+  
+  /* Customize the font, size, and color for text*/
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  color: black;
+
+  /* Adjust the padding and margins */
+  padding-top: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+
+}
+
+/* Select and style elements by class name or ID */
+
+
+/* Example: This styles elements with class="header"*/
+.header-container {
+  display: flex;
+  flex-direction: row;
+  /* background-color: #ECF8EC; */
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  height: 600px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.header-item:nth-of-type(1) {
+  width: 60%;
+}
+
+.header-item:nth-of-type(2) {
+  width: 30%;
+}
+
+
+/* Example: This styles an element with an id="header-img" */
+#header-img img {
+  /* margin: 0 auto; */
+  display: flex; 
+  padding: 20px;
+
+}
+
+/* .header-button {
+  /* font-size: 6; */
+  /* background-color: #373d20;
+
+} */
+
+/*
+  Style Text: Add style rules for any headings (h1-6),
+  paragraphs and links
+*/
+
+h1 {
+  /* background-color: #ECF8EC;  */
+  text-align: center;
+  font-size: 80px;
+  font-family: 'Segoe UI' extra bold;
+  font-weight: bold;
+  margin: 0;
+  /* padding: 40px;
+  width: 100%; */
+}
+
+h2 {
+  margin: 10px;
+  font-size: 40px;
+  text-align: center;
+}
+
+h3 {
+  padding: 30px
+}
+
+h4 {
+  margin: 40px;
+}
+
+p {
+  text-align: justify;
+}
+
+.textArea {
+  text-align: justify;
+  align-items: center;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+iframe {
+
+  display: block;
+  margin: 0 auto;
+}
+a {
+  color: #415d43;
+}
+
+a:link {
+  color: #415d43;
+}
+
+a:visited {
+  color: #cb997e;
+}
+
+a:hover {
+  color: #4a4e69;
+}
+
+a:active {
+  color: #7f5539;
+}
+
+button:link {
+  color: #415d43;
+}
+
+button:visited {
+  color: #cb997e;
+}
+
+button:hover {
+  color: #4a4e69;
+  background-color: #cb997e;
+}
+
+button:active {
+  
+}
+/*
+  Style Lists: Styles added to the ol or ul style rulesets affect the entire
+  list, while styles added to the li style ruleset affect individual list items
+*/
+
+
+ol {
+
+}
+
+ol li {
+
+}
+
+
+ul {
+  list-style: square;
+}
+
+ul li {
+
+}
+
+
+/*
+  Style Buttons: Add style rules for any headings (h1-6),
+  paragraphs and links
+*/
+
+button {
+  background-color:  #486284;
+  border: none;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  padding: 10px 15px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
+
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+
+
+
+/* Part 1: Navbar */
+
+/* General style rule set for all items in ul */
+.navbar ul {
+  list-style: none;
+  list-style-type: none;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin-bottom: 30px;
+  z-index: 1000; /* Updated z-index value */
+
+}
+
+/* Style rule set for individual li */
+.navbar ul li {
+    float: left;
+    margin: 10px;
+}
+
+
+/* Style rule set for individual li link */
+.navbar ul li a {
+  display: block;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  background-color: rgba(236, 248, 236, 0.4); /* RGBA color with 40% opacity */
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px;
+  text-decoration: none;
+}
+
+/* Style rule set for hovered link */
+.navbar ul li a:hover {
+  font-weight: bolder;
+  background-color: #f2e9e4;
+}
+
+
+
+.img-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  row-gap: 30px;
+  column-gap: 20px;
+}
+
+.img-container img:hover {
+  transform: scale(1.1); 
+}
+/* Part 2: Flexbox */
+
+/* General style rule set for flex container */
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+
+/* Style rules for flex-item 1 */
+.flex-item:nth-of-type(1) {
+
+}
+
+/* Style rules for flex-item 2 */
+.flex-item:nth-of-type(2) {
+
+}
+
+/* Style rules for flex-item 3 */
+.flex-item:nth-of-type(3) {
+
+}
+
+
+/* Style set for all flex-items */
+.flex-item {
+    background: white;
+    font-weight: bold;
+    /* text-align: center; */
+}
+
+
+
+
+
+/* Add style to button */
+.small-button {
+  width: 120px; /* Adjust width as needed */
+  height: 60px; /* Adjust height as needed */
+  font-size: 15px; /* Adjust font size as needed */
+  padding: 10px 15px; /* Adjust padding as needed */
+  border-radius: 5px;
+}
+
+
+.important {} 
+#interesting {} 
+
+
+/* Add style to button */
+#theme-button {
+  width: 120px;
+  height: 40px;
+  padding: 5px 3px; /* Adjust padding as needed */
+  background-color: grey;
+  font-family: Tahoma;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: dotted;
+  border-width: 0.3px;
+}
+
+
+/* Customize Dark Mode Theme */
+.dark-mode {
+  background-color: #1a1a1a;
+  color: white;
+  transition: background-color 0.5s ease, color 0.5s ease; /* Smooth transition effect */
+}
+.dark-mode #theme-button {
+  background-color: #ECF8EC;
+  color: black;
+}
+
+
+/* Validating error formatting */
+/* Add to CSS file */
+.error {
+  border-style: solid;
+  border-width: 2px;
+  border-color: red;
+  background:pink;
+}
+
+.revealable {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: all 2s ease;
+}
+.active {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* the modal that covers the background and prevents user interactions */
+.modal {
+  display: none; /* hides the modal from view by default*/
+  position: fixed; /* keeps the modal in one place */
+  z-index: 2; /* positions the modal on top of all other elements on the screen */
+  left: 50%; /* move the modal to the center horizontally */
+  top: 50%; /* move the modal to the center vertically */
+  transform: translate(-50%, -50%); /* center the modal precisely */
+  width: 80%; /* Full width */
+  max-width: 600px; /* set a maximum width for responsiveness */
+  height: 50%; /* Full height */
+  max-height: 400px; /* set a maximum height for responsiveness */
+  background-color: rgba(0,0,0,0.4); /* 40% opacity black - other elements can still be seen */
+  flex-direction: column; /* these flexbox rules center the content on the screen */
+  align-items: center;
+  justify-content: center;
+}
+
+/* box that contains all the content and images */
+.modal-content {
+  background-color: #a3b18a; /* update the colors and font sizes as you like */
+  color: black;
+  text-align: center;
+  font-size: 1rem;
+  display: flex; /* adds flexbox to center all items */
+  justify-content: center;
+  /* padding: 20px; /* add padding for better spacing */
+  /* padding-right: 20px; */ 
+  align-items: center;
+}
+
+#thanks-modal-content {
+  width: 10rem; /* sets a default width for the text container */
+  height: 7rem;
+}
+
+#modal-text-container {
+  display: flex; /* adds flexbox to center the text and buttons (stretch feature) */
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  /* justify-content: center; */
+}
+/* Adjust the image size to 2/3 of the current size */
+#modal-image {
+  width: 68%; /* Set the width to 2/3 of the current size */
+  height: auto; /* Maintain aspect ratio */
+  transform: 'scale(${scaleFactor})'';
+}
